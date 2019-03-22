@@ -1,5 +1,5 @@
-// play this: https://www.youtube.com/watch?v=d-diB65scQU  // yarn server
-// code away! //   yarn add express    yarn add nodemon --dev
+// play this: https://www.youtube.com/watch?v=d-diB65scQU  
+// code away! 
  const server = require('./server.js');
 
  server.listen(4000, () => {
