@@ -2,4 +2,10 @@
   text-align: center;
 }
 
-
+.classCardDiv {
+  background: peachpuff;
+  width: 1000px;
+  margin: 30px auto;
+  border-radius: 20px;
+  padding: 10px;
+};
