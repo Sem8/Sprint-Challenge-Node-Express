@@ -1,0 +1,33 @@
+1. Mention two parts of Express that you learned about this week.
+
+1an. 1) Express is a web application framework for Node.js. 2) With Express we can build web applications and serve Single Page Applications.
+
+
+2. Describe Middleware?
+
+2an. Middleware is a piece of code like a function that executes between the server receiving a request and sending a response.
+
+
+3. Describe a Resource?
+
+3an. Resource can be data stored in a backend database such as a list of hobbits a web user is requesting from the server.
+
+
+4. What can the API return to help clients know if a request was successful?
+
+4an. A status code in the 200 range and actual data the client requested.
+
+
+5. How can we partition our application into sub-applications?
+
+5an. By doing what's called a separation of concerns. Breaking down each category of code into different folders and files inside folders and 
+importing and exporting as necessary. 
+
+add the cors npm module: yarn add cors or npm i cors.
+add server.use(cors()) after server.use(express.json()).
+
+
+Use create-react-app to create an application in a separate folder (outside the API project folder). Name it anything you want.
+From the React application show a list of all projects using the API you built.
+Add functionality to show the details of a project, including its actions, when clicking a project name in the list. Use React Router to navigate to a separate route to show the project details.
+Add styling! Perhaps with styled-components.
