@@ -1,4 +1,5 @@
 const express = require("express");
+const cors = require('cors');
 
 const projectsRouter = require("./routers/projects-router.js");
 const actionsRouter = require("./routers/actions-router.js");
